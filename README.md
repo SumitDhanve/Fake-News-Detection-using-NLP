@@ -40,11 +40,6 @@ Stopword Removal → Removed common words (e.g., "the", "is", "in").
 
 Lemmatization → Reduced words to their base form using WordNetLemmatizer.
 
-import nltk
-from nltk.tokenize import word_tokenize
-from nltk.corpus import stopwords
-from nltk.stem import WordNetLemmatizer
-
 3. Feature Engineering
 
 Converted cleaned text into numerical features using:
